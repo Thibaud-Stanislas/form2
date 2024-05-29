@@ -1,0 +1,151 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+button {
+  font-size: 40px;
+  color: #f0ebec;
+  border-radius: 10px;
+  border: 1px none black;
+  padding: 20px 60px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: #f25c05;
+}
+
+button[type="submit"]:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  height: 100px; /* Adjust the height as needed */
+  padding: 20px 0 20px 0;
+  margin-bottom: 75px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: #242424;
+  position: absolute;
+  left: 100px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  line-height: 1.1;
+  font-weight: 800;
+  text-align: center;
+}
+.form-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #242424;
+}
+.error-message {
+  font-weight: 900;
+  color: red;
+}
+.success-message {
+  color: #0bc30b;
+  font-weight: 900;
+}
+
+.form {
+  background-color: #ffffff;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 75%;
+}
+
+.form-group {
+  height: 100%;
+  margin-bottom: 20px;
+  width: 80%;
+}
+.selection {
+  height: 100%;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.selection label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  color: #303030;
+}
+
+.form-group label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  color: #303030;
+}
+span {
+  color: red;
+}
+
+.selection input,
+.selection select {
+  color: #959595;
+  width: 102%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  color: #959595;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+input:focus {
+  outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  color: #242424;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+}
